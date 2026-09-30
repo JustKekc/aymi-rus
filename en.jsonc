@@ -1,0 +1,576 @@
+// I've documented a couple things here.
+// You don't have to translate everything, but I included
+// as much as I can just in case.
+//
+// {0}, {1}, ... are placeholders that the game fills in (a button icon,
+// a name, a link). Keep them in the sentence, but move them wherever
+// your language needs them.
+//
+// Text with multiple lines is written as a list surrounded by [] brackets,
+// one entry per line.
+// An empty entry ("") is a blank line between paragraphs.
+{
+  "NAME": "English",
+  "FONT_FAMILY": "Pixelated Times New Roman",
+  "CONTINUE_BUTTON": "Continue",
+
+  // ---------------------------------------------------------------
+  // Language menu
+  // ---------------------------------------------------------------
+  "LANGUAGE_MENU_TITLE": "Language",
+  // {0} is the link below (LANGUAGE_MENU_NOTE_LINK).
+  "LANGUAGE_MENU_NOTE": "Note: These are community translations and may not be completely accurate. If you want to contribute or make corrections, join our {0}.",
+  // Don't translate "Discord". Kept here for consistency.
+  "LANGUAGE_MENU_NOTE_LINK": "Discord",
+
+  // ---------------------------------------------------------------
+  // Title screen, warning, shared buttons
+  // ---------------------------------------------------------------
+  // Shown right after the button icon on the title screen.
+  "START_BUTTON": "start",
+  "WARNING": "Warning: This game contains mature content that may be disturbing and unsuitable for children.",
+  "WARNING_CONTINUE": "continue",
+  "WARNING_EXIT": "exit",
+  // The default button under most narration.
+  "BLINK_BUTTON": "blink",
+  // {0} is the button icon.
+  "PRESS_TO_BLINK_BUTTON": "press {0} to blink",
+  "END_CALL_BUTTON": "end call",
+  "RESTART_POPUP": "Hold \"START\" button for 5 seconds to restart.",
+
+  // ---------------------------------------------------------------
+  // Control tutorial
+  // ---------------------------------------------------------------
+  // {0} is the button icon.
+  "TUTORIAL_GRAB": "Use {0} to grab.",
+  "TUTORIAL_GRAB_PS3": "Use the L2 or R2 triggers to grab.",
+  "TUTORIAL_GRAB_GAMECUBE": "Use the L or R triggers to grab.",
+  "TUTORIAL_GRAB_RELEASE": "Release {0} to stop grabbing.",
+  "TUTORIAL_GRAB_RELEASE_GAMEPAD": "Release the L or R trigger to stop grabbing.",
+  "TUTORIAL_MOVE": "Use {0} to move.",
+  "TUTORIAL_MOVE_GAMEPAD": "Use the analog stick to move.",
+
+  // ---------------------------------------------------------------
+  // Hover text: the small label shown when the hand is over something.
+  // ---------------------------------------------------------------
+  "HOVER_THOUGHT": "a thought",
+  "HOVER_MEMORY": "a memory",
+  "HOVER_PENCIL": "a pencil",
+  "HOVER_CUBE": "a cube",
+  "HOVER_SPHERE": "a sphere",
+  "HOVER_CONE": "a cone",
+  "HOVER_DOCUMENT": "a document",
+  "HOVER_RESUME": "a resume",
+  "HOVER_CONTINUE": "continue",
+  "HOVER_COLOR_BLACK": "black",
+  "HOVER_COLOR_WHITE": "white",
+  "HOVER_COLOR_RED": "red",
+  "HOVER_COLOR_YELLOW": "yellow",
+  "HOVER_COLOR_GREEN": "green",
+  "HOVER_COLOR_CYAN": "cyan",
+  "HOVER_COLOR_BLUE": "blue",
+  "HOVER_COLOR_PINK": "pink",
+  // Backpack stickers.
+  "HOVER_STICKER_PLUSHIE": "plushie",
+  "HOVER_STICKER_SMILEY": "smiley",
+  "HOVER_STICKER_MUSTACHE": "mustache",
+  // Optional: Made up font names for the resume
+  // (Arial/Helvetica, Times New Roman, Open Sans/Droid).
+  "HOVER_FONT_ARIAVETICA": "ariavetica",
+  "HOVER_FONT_TIMES_OLD": "times old",
+  "HOVER_FONT_OPEN_DROID": "open droid",
+  // Optional: Made up creature names for the avatar (fish, rabbit, chao).
+  "HOVER_CREATURE_FISHEE": "fishee",
+  "HOVER_CREATURE_ROBBIT": "robbit",
+  "HOVER_CREATURE_CHIO": "chio",
+
+  // ---------------------------------------------------------------
+  // Opening
+  // ---------------------------------------------------------------
+  "I_AM_ON_A_TRAIN": [
+    "I am on a train,",
+    "going from one point to the next.",
+    "",
+    "Sometimes it stops and",
+    "I take in the view.",
+    "",
+    "Other times, it feels like",
+    "it just keeps moving."
+  ],
+
+  // ---------------------------------------------------------------
+  // Thoughts: short lines that float around and get dragged away.
+  // They are drawn on a small single-line sign, so keep them short.
+  // All lowercase on purpose.
+  // ---------------------------------------------------------------
+  "THOUGHTS_INSTRUCTION": "Drag the thoughts away to wake up.",
+  "THOUGHTS_BABY": [
+    "why is the sky blue?",
+    "where is my mom?",
+    "i am hungry"
+  ],
+  "THOUGHTS_TEENAGER": [
+    "do they like me?",
+    "what's due tomorrow?",
+    "i wonder what she thinks of me.",
+    "why do i feel so different"
+  ],
+  "THOUGHTS_ADULT": [
+    "what am i doing with my life?",
+    "do my coworkers like me?",
+    "what happens after we die?",
+    "what day of the week is it?",
+    "do i like what i'm doing?",
+    "is this forever?",
+    "will i regret this?",
+    "should i break up?",
+    "i feel empty",
+    "i feel like I'm doing this alone",
+    "why am i so anxious"
+  ],
+
+  // ---------------------------------------------------------------
+  // Childhood
+  // ---------------------------------------------------------------
+  "FIRST_MEMORY": [
+    "The first memory I ever had",
+    "was of three women",
+    "looking down at me.",
+    "",
+    "They poked at my face."
+  ],
+  "DRAWING_KIDS_DONE": "I like the way the pencil feels against the paper.",
+  "DRAWING_TEENAGER_DONE": "It's easy when there's guidance.",
+  "DRAWING_COLLEGE_DONE": "I can't do this.",
+  "SHAPES_KIDS_CUBE": "I like how it feels in my hand.",
+  "SHAPES_KIDS_SPHERE": "A little stuck, but it's okay.",
+  "SHAPES_KIDS_CONE": "It pokes my hand as I push it through.",
+  // The top line and bottom line are shown at the top and bottom of the screen.
+  "BLINK_FORCE_THE_SHAPE_IN": "I force the shape in.",
+  "BLINK_IT_PINCHES": "It pinches and cuts my hand.",
+
+  // ---------------------------------------------------------------
+  // Chats
+  // The way they type grows up with them: kid chatspeak with typos
+  // ("any1", "wat r ur"), then teenager, then college, then formal
+  // work messages. Feel free to use the internet slang of your own
+  // language from the 2000s/2010s instead of translating literally.
+  // Emoticons like >.> and :) can stay as they are.
+  // ---------------------------------------------------------------
+  "CHAT_ME": "Me",
+  "CHAT_STEPHANIE": "Stephanie",
+  "CHAT_USER_IS_ONLINE": "This user is now online.",
+  "CHAT_USER_IS_OFFLINE": "This user is offline.",
+
+  // Kids chat, inside an online pet game.
+  "CHAT_KIDS_HELLOOO_WORLD": "hellooo world, any1 out there?? >.>",
+  "CHAT_KIDS_HEHE_HI": "hehe hi",
+  "CHAT_KIDS_YO": "yo!!!!",
+  "CHAT_KIDS_UMMM_BYE": "ummm bye",
+  "CHAT_KIDS_HEYYY_COM_BACK": "HEYYY com back",
+  "CHAT_KIDS_LOLK": "lolk",
+  "CHAT_KIDS_OKOKOK": "okokok",
+  "CHAT_KIDS_O__O": "o__O",
+  "CHAT_KIDS_LOL": "Lol",
+  "CHAT_KIDS_WAT_R_UR_FAVORITE_GAMES": "wat r ur favorite games?",
+  // "club newpets" is a made up game (Club Penguin + Neopets).
+  "CHAT_KIDS_THIS_1_I_LOVE_CLUB_NEWPETS": "this 1!! i love club newpets :)!!",
+  "CHAT_KIDS_HOW_OLD_R_U": "how old r u??",
+  "CHAT_KIDS_IMM_12": "imm 12 .... >.>",
+  // This exact line is repeated later in CHAT_SURREAL_PRELUDE.
+  "CHAT_KIDS_WAT_DO_U_WANNA_B_WHEN_U_GROW_UP": "wat do u wanna b when u grow up??",
+  "CHAT_KIDS_IDK_MABY_A_MOVIE_DIRECTOR": "idk ... maby a movie director!!!",
+  "CHAT_KIDS_WANT_TO_BE_FRIENDS": "want to be friends??",
+  // "BuddyList" is a made up chat program. Don't translate the name.
+  "CHAT_KIDS_OK_ADD_ME_ON_BUDDYLIST": "ok :)) add me on BuddyList",
+
+  // Teenager chat, still inside the pet game.
+  "CHAT_TEENAGER_HAVENT_SEEN_U_IN_A_WHILE": "havent seen u in a while!",
+  "CHAT_TEENAGER_OMG_YES_HOW_ARE_U": "omg yes how are u",
+  "CHAT_TEENAGER_WHATS_IT_TO_YA": "what's it to ya?",
+  // "dory missouri" is a made up TV show (Hannah Montana).
+  "CHAT_TEENAGER_NEW_DORY_MISSOURI_EPISODE": "theres a new dory missouri episode out!!",
+  "CHAT_TEENAGER_I_HAVENT_WATCHED_IT_YET": "I HAVENT WATCHED IT YET!!",
+  "CHAT_TEENAGER_YEZZZ_I_LOVE_DORY_MISSOURI": "YEZZZ i love dory missouri",
+  "CHAT_TEENAGER_WATS_THAT": "wats that ?",
+  "CHAT_TEENAGER_ITS_THE_TV_SHOW": "??? its the tv show where the teenager is pop star by night and product designer by day",
+  "CHAT_TEENAGER_OH_COOL": "OH COOL!",
+  "CHAT_TEENAGER_SIDE_EYE": ">.>",
+  "CHAT_TEENAGER_WAIT_I_GTG_DO_HW": "wait i gtg do hw :) see ya around!",
+  "CHAT_TEENAGER_OH_SHOOT_ME_TOO_BYE": "oh shoot me too! bye!",
+  "CHAT_TEENAGER_CYA": "cya!!!",
+  "CHAT_TEENAGER_SMILE": ":)",
+
+  // Teenager chat 2, on a messenger.
+  "CHAT_TEENAGER2_DO_YOU_REMEMBER_THAT_GAME": "steph!! do you remember that game we used to play??",
+  "CHAT_TEENAGER2_YEAH_DO_YOU_WANT_TO_HOP_ON": "YEAH!! do you want to hop on?",
+  "CHAT_TEENAGER2_ITS_STILL_UP": "it's still up ??",
+  "CHAT_TEENAGER2_AHH_NO_ITS_OKAY": "ahh no~~ it's okay!",
+  "CHAT_TEENAGER2_AWWW_ITS_OK_NEXT_TIME": "awww its ok next time >:)",
+  "CHAT_TEENAGER2_MY_ORIGINAL_ACCOUNT_GOT_SCAMMED": "lol my original account got scammed, lemme make a new account.",
+  "CHAT_TEENAGER2_LOL_WOOPS": "LOL WOOPS",
+  "CHAT_TEENAGER2_OKOK_SEE_YOU": "OKOK see you!!",
+  "CHAT_TEENAGER2_SEE_U_IN_A_SEC": "see u in a sec :)",
+
+  // College chat.
+  "CHAT_COLLEGE_IVE_BEEN_THINKING_OF_THAT_GAME": "steph! i've been thinking of that game we used to play.",
+  "CHAT_COLLEGE_AHH_YES_IVE_BEEN_THINKING_OF_IT_TOO": "ahh yes, i've been thinking of it too",
+  "CHAT_COLLEGE_OMG_THE_FORUMS_ARE_DEAD_NOW": "omg the forums are dead now...",
+  "CHAT_COLLEGE_THE_DEVELOPERS_TOTALLY_ABANDONED_IT": "the developers totally abandoned it, no updates.",
+  "CHAT_COLLEGE_CAN_YOU_GET_IT_TO_RUN": "can you get it to run?",
+  "CHAT_COLLEGE_NO_IT_DOESNT_RUN": "no :( it doesn't run... i kind of want to make a game like it... i've been learning how to program to do that!",
+  "CHAT_COLLEGE_OH_THATS_SO_COOL": "oh that's so cool!",
+  "CHAT_COLLEGE_YEAH_WAIT_CAN_YOU_STAY_ONLINE": "yeah! wait, can you stay online?",
+
+  // College chat 2. They are drifting apart.
+  "CHAT_COLLEGE2_HEY_STEPH_YEARLY_CHAT": "Hey steph :) yearly chat?",
+  "CHAT_COLLEGE2_SURE_HOW_ARE_U_DOING": "sure... how are u doing?",
+  "CHAT_COLLEGE2_REALLY_GOOD_YOU": "really good! you?",
+  "CHAT_COLLEGE2_THATS_GOOD_SAME_YOURE_WORKING_NOW": "thats good... same, i'm good. you're working now?",
+  "CHAT_COLLEGE2_YEAH_ITS_BEEN_FUN": "yeah, it's been fun!",
+  "CHAT_COLLEGE2_THATS_GOOD": "that's good",
+
+  // Work chat with a coworker. Formal, proper punctuation.
+  "CHAT_WORK_NAME": "Robert Tsang",
+  "CHAT_WORK_I_AM_CURRENTLY_BLOCKED": "Hey. I am currently blocked by the interface you are designing. When do you think it will be done by?",
+  "CHAT_WORK_OH_HEY_SORRY_ABOUT_THAT": "Oh hey! Yeah sorry about that, I am still working on it. I will let you know when it's done. So sorry for the inconvenience.",
+  "CHAT_WORK_THE_TEAM_NEEDS_A_BETTER_TIME_ESTIMATE": "Yeah, it's just the team needs a better time estimate so that we can prioritize tasks.",
+  "CHAT_WORK_HOW_ABOUT_NEXT_THURSDAY": "Ok... How about... Next Thursday?",
+  "CHAT_WORK_LETS_SET_UP_A_MEETING": "Ok, let's set up a meeting then. Are you sure you don't need any help on this?",
+  "CHAT_WORK_NO_NO_I_DONT_NEED_ANY_HELP": "No no... I don't need any help.",
+  "CHAT_WORK_WELL_BE_HERE": "Well in any case, we'll always be here.",
+  "CHAT_WORK_I_NEED_TO_DO_THIS_ON_MY_OWN": "It's okay! I need to do this on my own.",
+  "CHAT_WORK_LETS_CIRCLE_BACK": "Okay. Let's circle back to this next Thursday. Have a good weekend.",
+
+  // Memorial chat.
+  "CHAT_MEMORIAL_HEY_STEPH_DO_YOU_REMEMBER_THAT_GAME": "Hey Steph. Do you remember that game we used to play?",
+  "CHAT_MEMORIAL_ERROR_SENDING_MESSAGE": "Error sending message. Account disabled.",
+  "CHAT_MEMORIAL_VIEW_PROFILE": "View Stephanie's Profile",
+  "CHAT_MEMORIAL_LOADING": "Loading...",
+
+  // Surreal chat prelude, back inside the pet game as kids.
+  // The first two lines here are the same as CHAT_KIDS on purpose.
+  "CHAT_SURREAL_PRELUDE_HELLOOO_WORLD": "hellooo world, any1 out there?? >.>",
+  "CHAT_SURREAL_PRELUDE_HEHE_HI": "hehe hi",
+  "CHAT_SURREAL_PRELUDE_OMG_I_LOVE_UR_AVATAR": "omg!! i love ur avatar!!!",
+  "CHAT_SURREAL_PRELUDE_TY": "ty :^)",
+  "CHAT_SURREAL_PRELUDE_WAT_DO_U_WANNA_B_WHEN_U_GROW_UP": "wat do u wanna b when u grow up??",
+
+  // Surreal chat. Starts as kid chatspeak, then halfway through
+  // ("steph...") they talk as adults, then it snaps back to kid
+  // chatspeak at "okay i gtg".
+  "CHAT_SURREAL_WAIT_U_DREW_THIS": "wait?? u drew this ;-; ? so talented qq",
+  "CHAT_SURREAL_AWW_TANKYU": "aww tankyu",
+  "CHAT_SURREAL_CAN_I_USE_IT": "can i use it??",
+  "CHAT_SURREAL_OFC_IT_WILL_BE_AN_HONOR": "ofc!! it will be an honor :)",
+  "CHAT_SURREAL_YAY_LOOK_AT_ME": "YAY! LOOK AT ME!!! so purty",
+  "CHAT_SURREAL_DO_U_WANNA_HELP_DECORATE_MY_ROOM": "heehee!! do u wanna help decorate my room??",
+  "CHAT_SURREAL_MY_PARENTS_ARE_FIGHTING_AGAIN": "ahh wait hold on. my parents are fighting again",
+  "CHAT_SURREAL_STEPH": "steph...",
+  "CHAT_SURREAL_YEAH": "yeah?",
+  "CHAT_SURREAL_WE_WERE_THE_ONLY_ONES": "sometimes I think about how we were the only ones who could understand each other.",
+  "CHAT_SURREAL_WE_GREW_UP_TOGETHER": "we grew up together, didn't we?",
+  "CHAT_SURREAL_WHY_DID_YOU_LEAVE_ME_TO_DO_THIS_BY_MYSELF": "why did you have to leave me to do this by myself?",
+  "CHAT_SURREAL_I_DIDNT_MEAN_TO": "i didn’t mean to. it was just so hard for me.",
+  "CHAT_SURREAL_I_KEEP_COMING_BACK_HERE": "i keep coming back here...",
+  "CHAT_SURREAL_SOMETIMES_I_ESCAPED_BACK_HERE_TOO": "sometimes i escaped back here too. we were so much happier.",
+  "CHAT_SURREAL_ITS_SO_PAINFUL": "it's so painful.",
+  "CHAT_SURREAL_I_DIDNT_KNOW_IT_WOULD_HURT_YOU": "i didnt know that it would hurt you so much.",
+  "CHAT_SURREAL_I_MISS_YOU": "i miss you.",
+  "CHAT_SURREAL_I_CANT_DO_THIS_ALONE": "i can't do this alone.",
+  "CHAT_SURREAL_WHY_DID_YOU_HAVE_TO_LEAVE_ME": "why did you have to leave me?",
+  "CHAT_SURREAL_I_MISS_YOU_TOO": "i miss you too. you’ve got this.",
+  "CHAT_SURREAL_SAD_FACE": ":(",
+  "CHAT_SURREAL_YOURE_NOT_ALONE": "you're not alone. you carry everyone you've ever met with you.",
+  // Same as CHAT_SURREAL_I_MISS_YOU but without the period.
+  "CHAT_SURREAL_I_MISS_YOU_2": "i miss you",
+  "CHAT_SURREAL_NEVER_KNOWING": "you might have to live your life never knowing.",
+  "CHAT_SURREAL_NO": "no.",
+  "CHAT_SURREAL_OKAY_I_MISS_YOU": "okay. i miss you.",
+  "CHAT_SURREAL_YOUVE_GOT_NO_CHOICE": "you've got no choice",
+  // "callign" is a typo on purpose.
+  "CHAT_SURREAL_OKAY_I_GTG": "okay i gtg. my parents are callign :\\",
+  "CHAT_SURREAL_ILL_SEE_YOU_ONLINE_TOMORROW_QUESTION": "i'll see you online tomorrow?",
+  "CHAT_SURREAL_ILL_SEE_YOU_ONLINE_TOMORROW": "i'll see you online tomorrow",
+
+  // ---------------------------------------------------------------
+  // School, college and work assignments
+  // ---------------------------------------------------------------
+  // These three lines are reused for school, resumes and work.
+  "SHAPES_I_WISH_I_COULD_FOCUS_MORE": "I wish I could focus more.",
+  "SHAPES_HOW_DID_THIS_HAPPEN_AGAIN": "How did this happen again?",
+  "SHAPES_ANOTHER_SLEEPLESS_NIGHT": "Ugh, another sleepless night.",
+  // Optional: File names. The last one is a keyboard smash.
+  "FILE_TEENAGER_1": "week4.docx",
+  "FILE_TEENAGER_2": "ch5_othello .docx",
+  "FILE_TEENAGER_3": "adsfzfpsych .docx",
+  "FILE_WORK_1": "Robert_Design.PSD",
+  "FILE_WORK_2": "orionsDesign Doc.docx",
+  "FILE_WORK_3": "2023 sales.xlsx",
+
+  "GRASS": [
+    "I am pulling blades of grass",
+    "and letting them slip through my hands.",
+    "",
+    "\"Try to remember...\"",
+    "",
+    "One day, in the future,",
+    "I will look back",
+    "and remember this moment."
+  ],
+
+  // A parent's voice. The grammar is broken on purpose, it is an
+  // immigrant parent speaking their second language.
+  "SHAPES_PARENT_YOU_NOT_WORK_HARD": "You not work hard.",
+  "SHAPES_PARENT_NEVER_GET_UP_ON_TIME": "Never get up on time.",
+  "SHAPES_PARENT_YOU_WANT_TO_BE_FAILURE": "You want to be failure?",
+
+  // Work messages from coworkers.
+  // "EoD" is "end of day", "lgtm" is "looks good to me".
+  "WORK_MESSAGE_ROBERT_NAME": "Robert Tsang",
+  "WORK_MESSAGE_ROBERT_REQUEST": "Hey, do you think you'll have the design by EoD?",
+  "WORK_MESSAGE_ROBERT_REPLY": "Thanks. I have some questions still about the design.",
+  "WORK_MESSAGE_ORION_NAME": "Orion Drakos",
+  "WORK_MESSAGE_ORION_REQUEST": "waiting on that design doc for review",
+  "WORK_MESSAGE_ORION_REPLY": "lgtm",
+  "WORK_MESSAGE_MICHAEL_NAME": "Michael Daniels",
+  "WORK_MESSAGE_MICHAEL_REQUEST": "Can you send a copy of the sales report? :)",
+  "WORK_MESSAGE_MICHAEL_REPLY": "Very nice. Want to grab dinner sometime?",
+
+  // ---------------------------------------------------------------
+  // Memorial page
+  // ---------------------------------------------------------------
+  "MEMORIAL_REMEMBERING": "Remembering",
+  "MEMORIAL_NAME": "Stephanie Huynh",
+  "MEMORIAL_YEARS": "1998 - 2023",
+
+  // ---------------------------------------------------------------
+  // Time passing. Each line is its own screen.
+  // ---------------------------------------------------------------
+  "TIME_PASSING": [
+    "I am staring out my office window.",
+    "I am at my best friend's wedding.",
+    "I am celebrating my 24th birthday.",
+    "I just broke up.",
+    "I am holding my friend's baby.",
+    "I am celebrating my 25th birthday.",
+    "I just moved cities.",
+    "I am celebrating my 29th birthday.",
+    "Why do all the days blend together?"
+  ],
+  // "Why does time keep moving?" shown one word per screen, faster
+  // and faster. You can split your sentence into more or fewer
+  // pieces, each entry is its own screen.
+  "WHY_DOES_TIME_KEEP_MOVING": [
+    "Why",
+    "Does",
+    "Time",
+    "Keep",
+    "Moving?"
+  ],
+
+  // ---------------------------------------------------------------
+  // Slowing down
+  // The first half is the therapist's voice.
+  // The second half (shown in blue italics) is the player's voice.
+  // ---------------------------------------------------------------
+  "SLOW_DOWN_THERAPIST": [
+    "Slow down.",
+    "Keep Pushing. Don't Let Go.",
+    "Breathe.",
+    "In.",
+    "Out.",
+    "How are you feeling?",
+    "Frustration?",
+    "Anxiety?",
+    "Apathy?"
+  ],
+  // This is one long thought broken up across screens, so the last
+  // two entries are one sentence split in half.
+  "SLOW_DOWN_ME": [
+    "I guess I feel...",
+    "Loneliness.",
+    "Like there’s a weirdly shaped hole in my body.",
+    "And I try to fill it up with hobbies, people, things.",
+    "But none of them fit.",
+    "They seem to fit at first, and I try to force them in but I eventually cause pain.",
+    "I keep going back to old memories.",
+    "Old video games.",
+    "When time seemed to stretch infinitely in both directions,",
+    "and the days lasted forever."
+  ],
+  "PERMISSION_TO_FEEL_SAD": "I give myself permission to feel sad.",
+  "PERMISSION_TO_FEEL_HAPPY": "I give myself permission to feel happy.",
+
+  // ---------------------------------------------------------------
+  // The scar
+  // The first two are the player's voice, the rest is the therapist.
+  // ---------------------------------------------------------------
+  "SCAR_I_REMEMBER": ["I remember when I got this scar on my hand."],
+  "SCAR_WHEN_I_SEE_IT": [
+    "When I see it,",
+    "I am reminded of that moment.",
+    "As if the memory pierces through time."
+  ],
+  "SCAR_THE_EMPTINESS": [
+    "The emptiness you feel is as real",
+    "as the scar on your hand."
+  ],
+  "SCAR_STRETCHING_BACK": ["Stretching back towards childhood."],
+  "SCAR_PAIN_REPEATS": [
+    "Pain repeats and flows.",
+    "From one person to the next."
+  ],
+  "SCAR_UNFORTUNATE_RESPONSIBILITY": [
+    "It is an unfortunate responsibility",
+    "to stop the flow of pain."
+  ],
+  "SCAR_YOU_ALONE": ["But you alone make that choice."],
+  // These float by in the background on small single-line signs,
+  // so keep them short.
+  "SCAR_FLOATING_THOUGHTS": [
+    "I want to feel loved",
+    "I want to feel belonging",
+    "I want to feel community",
+    "I want to feel seen",
+    "I want to feel heard"
+  ],
+
+  // ---------------------------------------------------------------
+  // Therapy
+  // ---------------------------------------------------------------
+  "THERAPY_WHERE_ARE_YOU_NOW": ["Where are you now?"],
+  // The player's voice.
+  "THERAPY_ISNT_THIS_ME": [
+    "Isn't this me?",
+    "A floating blob of worries?"
+  ],
+  "THERAPY_NO_I_SEE_YOU": [
+    "No... I see you...",
+    "Right here."
+  ],
+  "THERAPY_THE_YOU_THAT_EXISTS_INSIDE": ["The you that exists inside."],
+  "THERAPY_YOUR_THOUGHTS_ARE_VOICES": [
+    "Your thoughts are the disembodied voices of people in the past, echoing through time."
+  ],
+  "THERAPY_YOU_ARE_NOT_YOUR_THOUGHTS": [
+    "You are not your thoughts or feelings.",
+    "You are something much lighter."
+  ],
+  "THERAPY_DRAG_THE_THOUGHTS_AWAY": [
+    "Drag the thoughts away,",
+    "to let go of them."
+  ],
+
+  // Each thought is dragged away, then its response is shown.
+  // Some of the thoughts are repeated from THOUGHTS_ADULT.
+  // Thoughts are drawn on a small single-line sign, so keep them short.
+  "THERAPY_THOUGHT_1": "I am worthless",
+  "THERAPY_RESPONSE_1": "do I accept this thought?",
+  "THERAPY_THOUGHT_2": "do my coworkers like me?",
+  "THERAPY_RESPONSE_2": "it's okay to worry about my relationships",
+  "THERAPY_THOUGHT_3": "what day of the week is it?",
+  "THERAPY_RESPONSE_3": "can't always be on top of everything",
+  "THERAPY_THOUGHT_4": "do I like what i'm doing?",
+  "THERAPY_RESPONSE_4": "i'll take time to reflect",
+  "THERAPY_THOUGHT_5": "is this forever?",
+  "THERAPY_RESPONSE_5": "can I do something about this worry?",
+  "THERAPY_THOUGHT_6": "I feel empty",
+  "THERAPY_RESPONSE_6": "maybe I should reach out",
+  "THERAPY_THOUGHT_7": "I feel like I'm doing this alone",
+  "THERAPY_RESPONSE_7": "should I reach out?",
+  "THERAPY_THOUGHT_8": "why am I so anxious",
+  "THERAPY_RESPONSE_8": "everyone feels anxiety, it is our body telling us something might be wrong.",
+  "THERAPY_THOUGHT_9": "why do I have these thoughts?",
+  "THERAPY_RESPONSE_9": "thoughts happen regardless",
+  "THERAPY_THOUGHT_10": "I keep making mistakes",
+  "THERAPY_RESPONSE_10": "it happens to everyone",
+  "THERAPY_THOUGHT_11": "I have so much to do",
+  "THERAPY_RESPONSE_11": "take it one step at a time",
+  "THERAPY_THOUGHT_12": "I'm afraid of failing",
+  "THERAPY_RESPONSE_12": "failure is a part of learning",
+  "THERAPY_THOUGHT_13": "I don't feel motivated",
+  "THERAPY_RESPONSE_13": "it's okay to rest and recharge",
+  "THERAPY_THOUGHT_14": "I feel so tired",
+  "THERAPY_RESPONSE_14": "I'll listen to my body",
+
+  // The top line and bottom line are shown at the top and bottom of the screen.
+  "THERAPY_OUR_TIME_IS_ALMOST_UP": "Our time is almost up.",
+  "THERAPY_WHAT_ARE_YOU_THINKING_NOW": "What are you thinking now?",
+  // The player's voice.
+  "THERAPY_IT_TOOK_ME_2_YEARS": ["It took me 2 years to cry about Stephanie..."],
+  "THERAPY_THESE_THINGS_TAKE_TIME": ["These things take time."],
+  // The player's voice.
+  "THERAPY_WILL_I_EVER_GET_BETTER": ["Will I ever get better?"],
+  // Also shown as the therapist's last chat message in the video call.
+  "THERAPY_IM_SURE": [
+    "I'm sure.",
+    "You chose to come here didn't you?",
+    "",
+    "Reaching out for help is the first step.",
+    "",
+    "I'll see you next week :)"
+  ],
+
+  // The video call window after the session.
+  "THERAPY_CALL_NAME": "Dr. Gibby - Clinical Psychologist",
+  "THERAPY_CALL_TIME": "5:10 PM",
+  "THERAPY_CALL_SEND_BUTTON": "Send",
+  "THERAPY_CALL_MEETING_ENDED": "This meeting has ended",
+  "THERAPY_CALL_YOU_HAVE_ENDED_THE_CALL": "You have ended the call with the host.",
+  "THERAPY_CALL_OK_BUTTON": "OK",
+
+  // ---------------------------------------------------------------
+  // Ending
+  // ---------------------------------------------------------------
+  "MEMORY_UNIVERSE": [
+    "In my mind,",
+    "every memory I have",
+    "is it’s own",
+    "pocket universe.",
+    "",
+    "Floating in space,",
+    "looping forever."
+  ],
+  "SOMEWHERE_OUT_THERE_CLASS": [
+    "Somewhere out there,",
+    "I am forever",
+    "sitting in class",
+    "waiting for the bell to ring."
+  ],
+  "SOMEWHERE_OUT_THERE_AUNTS": [
+    "Somewhere out there,",
+    "I am forever",
+    "being poked and prodded",
+    "by my aunts."
+  ],
+  "SOMEWHERE_OUT_THERE_VIDEO_GAME": [
+    "Somewhere out there,",
+    "I am forever",
+    "playing an online video game",
+    "with my friend."
+  ],
+
+  // ---------------------------------------------------------------
+  // End credits. Each line is its own screen.
+  // {0} is the person's handle (like @nohurryhen).
+  // ---------------------------------------------------------------
+  "END_CREDITS_SOUNDTRACK": "Soundtrack by {0}",
+  "END_CREDITS_VIDEOGRAPHY": "Videography by {0}",
+  "END_CREDITS_DRAWINGS": "Drawings by {0}",
+  // A song. Keep the song title in English.
+  "END_CREDITS_SONG": "\"I've changed too\" by {0}",
+  "END_CREDITS_WRITTEN_AND_DIRECTED": "Written & Directed by {0}",
+
+  // Translation Credits
+  "SHOW_TRANSLATION_CREDITS": false,
+  // Put as many credits here as you want.
+  // Please don't put a virus here :(
+  "CREDITS": [
+    // { "name": "Your Name", "website": "https://example.com/" },
+    { "name": "Henry" } // Optional website.
+  ],
+
+  // Ignore this last line, it's so each line can have a comma at the end.
+  "": null
+}
