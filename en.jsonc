@@ -15,15 +15,6 @@
   "CONTINUE_BUTTON": "Continue",
 
   // ---------------------------------------------------------------
-  // Language menu
-  // ---------------------------------------------------------------
-  "LANGUAGE_MENU_TITLE": "Language",
-  // {0} is the link below (LANGUAGE_MENU_NOTE_LINK).
-  "LANGUAGE_MENU_NOTE": "Note: These are community translations and may not be completely accurate. If you want to contribute or make corrections, join our {0}.",
-  // Don't translate "Discord". Kept here for consistency.
-  "LANGUAGE_MENU_NOTE_LINK": "Discord",
-
-  // ---------------------------------------------------------------
   // Title screen, warning, shared buttons
   // ---------------------------------------------------------------
   // Shown right after the button icon on the title screen.
